@@ -167,10 +167,11 @@ h6 {
 }
 
 .img-footer {
-  margin: auto;
+  margin-left: 0;
+  margin-right: auto;
   width: auto;
-  height: 100%;
-  max-height: 160px;
+  height: auto;
+  max-height: 55px;
 }
 
 .scrolled-offset {
@@ -188,6 +189,8 @@ h6 {
   padding: 0;
   background-color: #080075;
   font-weight: bold;
+  height: 50px;
+ 
 }
 
 .navbar ul {
@@ -609,9 +612,9 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 15px 0;
+  padding: 10px 0;
   background: #2b2320;
-  min-height: 40px;
+  min-height: 40px ;
 }
 
 .breadcrumbs h2 {
@@ -656,6 +659,10 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+
+#main {
+  padding-top: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -2068,12 +2075,16 @@ section {
 #footer {
   color: white;
   font-size: 14px;
-  background: #14100f;
+  background: #080075;
+}
+
+#footer .address-foot {
+  padding-top: 5px;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: black;
+  background: #080075;
 }
 
 #footer .footer-top .footer-contact {
@@ -2209,8 +2220,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #151e92;
-  color: #fff;
+  background: #ffffff;
+  color: #000000;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -2225,8 +2236,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #2735fc;
-  color: #fff;
+  background: #585858;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -2237,4 +2248,16 @@ section {
   margin-right: 0;
   margin-bottom: 0;
   margin-top: auto;
+}
+
+.embed-vid {
+ width: 50%;
+
+}
+
+.vid-index {
+  margin : 0 auto;
+  display: block;
+  width: 60%;
+  height: auto;
 }
