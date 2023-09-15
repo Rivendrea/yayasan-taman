@@ -155,6 +155,8 @@
       heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
   });
 
+
+
   /**
    * Skills animation
    */
@@ -216,10 +218,10 @@
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
-    autoplay: {
+    /*autoplay: {
       delay: 5000,
       disableOnInteraction: false
-    },
+    },*/
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
