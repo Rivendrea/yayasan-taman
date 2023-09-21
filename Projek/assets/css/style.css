@@ -2094,6 +2094,7 @@ section {
   color: white;
   font-size: 14px;
   background: #080075;
+
 }
 
 #footer .address-foot {
@@ -2275,10 +2276,22 @@ section {
 }
 
 .vid-index {
-  margin : 0 auto;
-  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.60%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   width: 80%;
-  height: auto;
+  height: 80%;
+  display: block;
+  margin :auto;
 }
 
 .vid-post {
@@ -2296,4 +2309,16 @@ section {
   height: auto;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.legalitas h4{
+  color: #d67900;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.legalitas h5{
+  color: #000000;
+  padding-bottom: 17px;
+  margin-left: 1%;
 }
